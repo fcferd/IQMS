@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+    background-color: #F5F5F5; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.header {
+    background: linear-gradient(to right, #3f87a6, #ebf8e1); 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.login-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input[type="text"], .login-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #3f87a6; 
+    border-radius: 5px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #3f87a6; 
+    color: white;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #ebf8e1; 
+    color: #3f87a6; 
+}
+
+.office-selection {
+    display: flex;
+    background: teal;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.office {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.office h2 {
+    color: #3f87a6;
+}
+
+.office button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f87a6;
+    color: white;
+    cursor: pointer;
+}
+
+.office button:hover {
+    background-color: #ebf8e1;
+}
+
+.queue-display {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.queue-display h2 {
+    color: #3f87a6;
+}
+
+.queue-display p {
+    font-size: 24px;
+    color: #333;
+}
+
+.bursar-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.bursar-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #3f87a6;
+    border-radius: 5px;
+}
+
+.bursar-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f87a6;
+    color: white;
+    cursor: pointer;
+}
+
+.bursar-form button:hover {
+    background-color: #ebf8e1;
+}
+
+.barcode-display {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.barcode-display img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
